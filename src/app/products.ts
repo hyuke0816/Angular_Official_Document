@@ -9,19 +9,19 @@ export const products = [
   {
     id: 1,
     name: 'iPhone 13 Pro',
-    price: 799,
+    price: 999,
     description: '최고의 스마트폰',
   },
   {
     id: 2,
     name: 'iPhone 13 mini',
-    price: 699,
+    price: 799,
     description: '한손에 딱',
   },
   {
     id: 3,
     name: 'iPhone 13',
-    price: 299,
+    price: 899,
     description: '',
   },
 ];

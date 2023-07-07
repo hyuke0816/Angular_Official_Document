@@ -1,0 +1,28 @@
+<h1>cart.component</h1>
+
+<p>
+    <a routerLink="/shipping">배송 가격 보기</a>
+</p>
+
+<div class="cart-item" *ngFor="let item of items">
+    <span> {{ item.name }} </span>
+    <span> {{ item.price | currency }} </span>
+</div>
+
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+    <div>
+        <label for="name">
+            이름
+        </label>
+        <input id="name" type="text" formControlName="name" placeholder="이름을 써봐요">
+    </div>
+
+    <div>
+        <label for="address">
+            주소
+        </label>
+        <input id="address" type="text" formControlName="address" placeholder="주소도 써봐요">
+    </div>
+
+    <button class="button" type="submit">구매</button>
+</form>

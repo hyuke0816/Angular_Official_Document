@@ -1,9 +1,9 @@
-<h2>Product Details</h2>
+<h1>product-details.component</h1>
 
 <div *ngIf="product">
   <h3>{{ product.name }}</h3>
   <h4>{{ product.price | currency }}</h4>
   <p>{{ product.description }}</p>
 
-  <button>구매하기</button>
+  <button type="button" (click)="addToCart(product)">장바구니 담기</button>
 </div>

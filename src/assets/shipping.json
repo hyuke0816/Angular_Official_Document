@@ -1,14 +1,14 @@
 [
   {
-    "type": "Overnight",
+    "type": "겁나 빨리",
     "price": 25.99
   },
   {
-    "type": "2-Day",
+    "type": "이틀",
     "price": 9.99
   },
   {
-    "type": "Postal",
+    "type": "우체국",
     "price": 2.99
   }
 ]
